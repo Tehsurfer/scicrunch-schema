@@ -44,7 +44,7 @@ This will be **positive** for consistency but the _negative_ is it will require 
 The *negative* to this is that we will then have duplicates stored on scicrunch and we will need tools in place to process them (so that we don't display duplicates
 
 ## mapcore.schema.json (proposed)
-```
+```yaml
 {
   "type": "object",
   "properties": {
