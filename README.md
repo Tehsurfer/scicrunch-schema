@@ -30,7 +30,7 @@ SciCrunch currently includes the following 16 parameters:
 
 
 ## Mapcore additions
-Map core is currently assesing adding a _Visualisation_ object to this list which contains two additional features:
+Map core is currently assessing adding a _Visualisation_ object to this list which contains two additional features:
 - _List_ of applicable visualisations (strings)
 - _URI_ that visualisation collects data from (url string)
 _And potentially:_
@@ -39,9 +39,9 @@ _And potentially:_
 ## Method of additions
 I imagine we have two methods of adding these additions to SciCrunch
 ### 1. Update all results with visualisation information
-This will be **positive** for consistency but the _negative_ is it will require more deeper access to SciCrunch to impolement
+This will be **positive** for consistency but the _negative_ is it will require more access to SciCrunch databases to implement.
 ### 2. Add additional results that are Map-Core specific
-The *negative* to this is that we will then have duplicates stored on scicrunch and we will need tools in place to process them (so that we don't display duplicates
+The *negative* to this is that we will then have duplicates stored on scicrunch and we will need tools in place to process them (so that we don't display duplicates/
 
 ## mapcore.schema.json (proposed)
 ```yaml
