@@ -4,13 +4,12 @@
     "Dataset Title": { "type": "string", "required": true },
     "Description": { "type": "string" },
     "Example Image": { "type": "string" },
+    "Species": { "type": "string" }, 
+    "Anatomy": { "type": "array" }, 
     "Visualisation": {
       "type": "object",
       "properties": {
         "available": { "type": "array", "required": true },
-        "species": { "type": "string" }, 
-        "organ": { "type": "string" }, 
-        "annotation": { "type": "string" }, 
         "Scaffold": {
           "type": "object", 
           "required": false,
