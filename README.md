@@ -37,9 +37,9 @@ _And potentially:_
 - _URL_ of the visulasation itself (on data.sparc.science)
 
 ## Method of additions
-I imagine we have two methods of addin these additions to SciCrunch
+I imagine we have two methods of adding these additions to SciCrunch
 ### 1. Update all results with visualisation information
 This will be **positive** for consistency but the _negative_ is it will require more deeper access to SciCrunch to impolement
-## 2. Add additional results that are Map-Core specific
+### 2. Add additional results that are Map-Core specific
 The *negative* to this is that we will then have duplicates stored on scicrunch and we will need tools in place to process them (so that we don't display duplicates
 
