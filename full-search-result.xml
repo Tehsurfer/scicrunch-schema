@@ -1,0 +1,1986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Queries used: 'heart' -->
+<!-- Date: 15/11/2019 -->
+<responseWrapper>
+   <messages />
+   <query operator="AND">
+      <clauses>
+         <clauses forbid="false" id="UBERON:0000948" require="false">
+            <expansion>
+               <expansion>vertebrate heart</expansion>
+               <expansion>branchial heart</expansion>
+               <expansion>cardium</expansion>
+               <expansion>chambered heart</expansion>
+               <expansion>herz@de</expansion>
+            </expansion>
+            <query>heart</query>
+            <quoted>false</quoted>
+         </clauses>
+      </clauses>
+   </query>
+   <result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tableData" nifId="SCR_017041-3" resultCount="23">
+      <debugInfo>(award_number:heart acknowledgement:heart dataset_completeness_index:heart description:heart age_category:heart multi_contact:heart subject_count:heart title_for_complete_data_set:heart contributor_count:heart v_status:heart links:heart identifier:heart nifKeywords:heart protocol_url_or_doi:heart multi_keywords:heart isan:heart v_uuid:heart multi_modality:heart completeness_of_data_set:heart multi_sex:heart examples:heart species:heart originating_article_doi:heart name:heart sample_count:heart additional_links:heart errors:heart multi_organ:heart) (award_number:"vertebrate heart" acknowledgement:"vertebrate heart" dataset_completeness_index:"vertebrate heart" description:"vertebrate heart" age_category:"vertebrate heart" multi_contact:"vertebrate heart" subject_count:"vertebrate heart" title_for_complete_data_set:"vertebrate heart" contributor_count:"vertebrate heart" v_status:"vertebrate heart" links:"vertebrate heart" identifier:"vertebrate heart" nifKeywords:"vertebrate heart" protocol_url_or_doi:"vertebrate heart" multi_keywords:"vertebrate heart" isan:"vertebrate heart" v_uuid:"vertebrate heart" multi_modality:"vertebrate heart" completeness_of_data_set:"vertebrate heart" multi_sex:"vertebrate heart" examples:"vertebrate heart" species:"vertebrate heart" originating_article_doi:"vertebrate heart" name:"vertebrate heart" sample_count:"vertebrate heart" additional_links:"vertebrate heart" errors:"vertebrate heart" multi_organ:"vertebrate heart") (award_number:"branchial heart" acknowledgement:"branchial heart" dataset_completeness_index:"branchial heart" description:"branchial heart" age_category:"branchial heart" multi_contact:"branchial heart" subject_count:"branchial heart" title_for_complete_data_set:"branchial heart" contributor_count:"branchial heart" v_status:"branchial heart" links:"branchial heart" identifier:"branchial heart" nifKeywords:"branchial heart" protocol_url_or_doi:"branchial heart" multi_keywords:"branchial heart" isan:"branchial heart" v_uuid:"branchial heart" multi_modality:"branchial heart" completeness_of_data_set:"branchial heart" multi_sex:"branchial heart" examples:"branchial heart" species:"branchial heart" originating_article_doi:"branchial heart" name:"branchial heart" sample_count:"branchial heart" additional_links:"branchial heart" errors:"branchial heart" multi_organ:"branchial heart") (award_number:cardium acknowledgement:cardium dataset_completeness_index:cardium description:cardium age_category:cardium multi_contact:cardium subject_count:cardium title_for_complete_data_set:cardium contributor_count:cardium v_status:cardium links:cardium identifier:cardium nifKeywords:cardium protocol_url_or_doi:cardium multi_keywords:cardium isan:cardium v_uuid:cardium multi_modality:cardium completeness_of_data_set:cardium multi_sex:cardium examples:cardium species:cardium originating_article_doi:cardium name:cardium sample_count:cardium additional_links:cardium errors:cardium multi_organ:cardium) (award_number:"chambered heart" acknowledgement:"chambered heart" dataset_completeness_index:"chambered heart" description:"chambered heart" age_category:"chambered heart" multi_contact:"chambered heart" subject_count:"chambered heart" title_for_complete_data_set:"chambered heart" contributor_count:"chambered heart" v_status:"chambered heart" links:"chambered heart" identifier:"chambered heart" nifKeywords:"chambered heart" protocol_url_or_doi:"chambered heart" multi_keywords:"chambered heart" isan:"chambered heart" v_uuid:"chambered heart" multi_modality:"chambered heart" completeness_of_data_set:"chambered heart" multi_sex:"chambered heart" examples:"chambered heart" species:"chambered heart" originating_article_doi:"chambered heart" name:"chambered heart" sample_count:"chambered heart" additional_links:"chambered heart" errors:"chambered heart" multi_organ:"chambered heart") (award_number:herz@de acknowledgement:herz@de dataset_completeness_index:herz@de description:herz@de age_category:herz@de multi_contact:herz@de subject_count:herz@de title_for_complete_data_set:herz@de contributor_count:herz@de v_status:herz@de links:herz@de identifier:herz@de nifKeywords:herz@de protocol_url_or_doi:herz@de multi_keywords:herz@de isan:herz@de v_uuid:herz@de multi_modality:herz@de completeness_of_data_set:herz@de multi_sex:herz@de examples:herz@de species:herz@de originating_article_doi:herz@de name:herz@de sample_count:herz@de additional_links:herz@de errors:herz@de multi_organ:herz@de)</debugInfo>
+      <results>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies &lt;a class="external" target="_blank" href="http://data.sparc.science/browse/#/datasets/32"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Rajendran, Pradeep Sundaram: https://orcid.org/0000-0001-9790-0408, Challis, Rosemary C:, Fowlkes, Charless C:, Hanna, Peter:, Tompkins, John D:, Jordan, Maria C:, Hiyari, Sarah:, Gabris-Weber, Beth A:, Greenbaum, Alon:, Chan, Ken Y:, Deverman, Benjamin E:, Munzberg, Heike:, Ardell, Jeffrey L:, Salama, Guy:, Gradinaru, Viviana:, Shivkumar, Kalyanam:</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023848</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Heart rate is under the precise control of the autonomic nervous system. However, the wiring of peripheral neural circuits that regulate heart rate is poorly understood. Here, we developed a clearing-imaging-analysis pipeline to visualize innervation of intact hearts in 3D and employed a multi-technique approach to map parasympathetic and sympathetic neural circuits that control heart rate in mice. We anatomically and functionally identify cholinergic neurons and noradrenergic neurons in an intrinsic cardiac ganglion and the stellate ganglia, respectively, that project to the sinoatrial node. We also report that the heart rate response to optogenetic versus electrical stimulation of the vagus nerve displays different temporal characteristics and that vagal afferents enhance parasympathetic and reduce sympathetic tone to the heart via central mechanisms. Our findings provide new insights into neural regulation of heart rate, and our methodology to study cardiac circuits can be readily used to interrogate neural control of other visceral organs.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948, tissue | UBERON:0000479, heart | UBERON:0000948</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>electrophysiology</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Mus musculus|NCBITaxon:10090</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>peripheral nervous system, cholinergic, noradrenergic, cardiac autonomic nervous system</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>1</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:9dd7a07b-2037-4ce7-829d-395cc4382518"&gt;Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 5; # of files: 29; bytes: 7222501896</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/private/39DCB5301BC684F70CD5B3859B1F6CED</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>4</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>16</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Batch</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value>We thank the entire Shivkumar and Gradinaru group for discussions. This work was supported by a NIH Stimulating Peripheral Activity to Relieve Conditions (SPARC) awards (OT2OD023848 to K.S. and V.G.; OT2OD23864 to H.M.). The K.S. laboratory is also supported by a NIH National Heart, Lung, and Blood Institute (NHLBI) grant (R01HL084261) and a NIH SPARC award (U01EB025138-01 to K.S. and J.L.A.). The V.G. laboratory is also supported by a NIH Director's New Innovator Award (DP2NS087949), a NIH Presidential Early Career Award for Scientists and Engineers, a NIH National Institute on Aging grant (R01AG047664), a NIH BRAIN Initiative award (U01NS090577), the Defense Advanced Research Projects Agency (DARPA) Biological Technologies Office, the National Science Foundation NeuroNex Technology Hub (1707316), the Curci Foundation, the Beckman Institute, and the Rosen Bioengineering Center at Caltech. V.G. is a Heritage Principal Investigator supported by the Heritage Medical Research Institute. P.S.R. was supported by a NIH NHLBI F31 Predoctoral Fellowship (F31HL127974). R.C.C. was supported by an American Heart Association Postdoctoral Fellowship (17POST33410404). P.S.R. is a part of the UCLA-Caltech Medical Scientist Training Program. We thank Drs. Marmar Vaseghi (UCLA), Olujimi A. Ajijola (UCLA), and Ching Zhu (UCLA) for their comments.</value>
+            </data>
+            <data>
+               <name>Links</name>
+               <value>http://data.sparc.science/browse/#/datasets/32</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value>adult organism|UBERON:0007023</value>
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:9dd7a07b-2037-4ce7-829d-395cc4382518"&gt;N:dataset:9dd7a07b-2037-4ce7-829d-395cc4382518&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>released</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>f4f3aa88-bf57-5f90-9077-d40c192bb30a</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>A multi-scale model of cardiac electrophysiology &lt;a class="external" target="_blank" href="http://data.sparc.science/browse/#/datasets/23"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Clancy, Colleen:, Yang, Pei-Chi:</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD026580</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>We developed a workflow containing differential equation models of cardiac physiology that automate the execution of simulations with user defined options of outputs from a single cell, 1 or 2D tissue, and a pseudo-ECG output, which can be compared to experimental or clinical data.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>electrophysiology</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value />
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>Cardiac Electrophysiology, Workflow, Action potential, pseudo-ECG</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:c5c2f40f-76be-4979-bfc4-b9f9947231cf"&gt;A multi-scale model of cardiac electrophysiology&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 11; # of files: 108; bytes: 7927231</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://doi.org/10.17504/protocols.io.5nkg5cw,https://www.protocols.io/view/a-multi-scale-model-of-cardiac-electrophysiology-5nkg5cw</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value>https://doi.org/10.1371/journal.pcbi.1006856</value>
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>2</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value />
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>http://data.sparc.science/browse/#/datasets/23</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:c5c2f40f-76be-4979-bfc4-b9f9947231cf"&gt;N:dataset:c5c2f40f-76be-4979-bfc4-b9f9947231cf&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>released</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>3a8ca0e7-f1eb-5cfc-b97b-8c26adc5e859</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:1e686e94-c10c-408a-a522-4d66e34f372a"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Rajendran, Pradeep Sundaram: https://orcid.org/0000-0001-9790-0408, Challis, Rosemary C:, Fowlkes, Charless C:, Hanna, Peter:, Tompkins, John D:, Jordan, Maria C:, Hiyari, Sarah:, Gabris-Weber, Beth A:, Greenbaum, Alon:, Chan, Ken Y:, Deverman, Benjamin E:, Munzberg, Heike:, Ardell, Jeffrey L: https://orcid.org/0000-0001-9241-0864, Salama, Guy:, Gradinaru, Viviana:, Shivkumar, Kalyanam: https://orcid.org/0000-0002-4121-1766</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value />
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Heart rate is under the precise control of the autonomic nervous system. However, the wiring of peripheral neural circuits that regulate heart rate is poorly understood. Here, we developed a clearing-imaging-analysis pipeline to visualize innervation of intact hearts in 3D and employed a multi-technique approach to map parasympathetic and sympathetic neural circuits that control heart rate in mice. We anatomically and functionally identify cholinergic neurons and noradrenergic neurons in an intrinsic cardiac ganglion and the stellate ganglia, respectively, that project to the sinoatrial node. We also report that the heart rate response to optogenetic versus electrical stimulation of the vagus nerve displays different temporal characteristics and that vagal afferents enhance parasympathetic and reduce sympathetic tone to the heart via central mechanisms. Our findings provide new insights into neural regulation of heart rate, and our methodology to study cardiac circuits can be readily used to interrogate neural control of other visceral organs.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>tissue | UBERON:0000479, heart | UBERON:0000948</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value />
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value />
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>peripheral nervous system, cholinergic, noradrenergic, cardiac autonomic nervous system</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:1e686e94-c10c-408a-a522-4d66e34f372a"&gt;Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies part(2)&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 96; # of files: 218; bytes: 80724641792</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/private/39DCB5301BC684F70CD5B3859B1F6CED</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>0</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>16</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Batch</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value>We thank the entire Shivkumar and Gradinaru group for discussions. This work was supported by a NIH Stimulating Peripheral Activity to Relieve Conditions (SPARC) awards (OT2OD023848 to K.S. and V.G.; OT2OD23864 to H.M.). The K.S. laboratory is also supported by a NIH National Heart, Lung, and Blood Institute (NHLBI) grant (R01HL084261) and a NIH SPARC award (U01EB025138-01 to K.S. and J.L.A.). The V.G. laboratory is also supported by a NIH Director's New Innovator Award (DP2NS087949), a NIH Presidential Early Career Award for Scientists and Engineers, a NIH National Institute on Aging grant (R01AG047664), a NIH BRAIN Initiative award (U01NS090577), the Defense Advanced Research Projects Agency (DARPA) Biological Technologies Office, the National Science Foundation NeuroNex Technology Hub (1707316), the Curci Foundation, the Beckman Institute, and the Rosen Bioengineering Center at Caltech. V.G. is a Heritage Principal Investigator supported by the Heritage Medical Research Institute. P.S.R. was supported by a NIH NHLBI F31 Predoctoral Fellowship (F31HL127974). R.C.C. was supported by an American Heart Association Postdoctoral Fellowship (17POST33410404). P.S.R. is a part of the UCLA-Caltech Medical Scientist Training Program. We thank Drs. Marmar Vaseghi (UCLA), Olujimi A. Ajijola (UCLA), and Ching Zhu (UCLA) for their comments.</value>
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:1e686e94-c10c-408a-a522-4d66e34f372a</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:1e686e94-c10c-408a-a522-4d66e34f372a"&gt;N:dataset:1e686e94-c10c-408a-a522-4d66e34f372a&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>af06df7b-14e0-5b4d-beaf-41933b297c0c</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Immunocytochemistry Pig Heart ICN &lt;a class="external" target="_blank" href="http://data.sparc.science/browse/#/datasets/25"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Hoover, Donald: https://orcid.org/0000-0002-0845-2488</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023848</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Pig ICN Confocal Immunocytochemisrtry. Yucaatan Pigs fixed and RAGP region excised  sectioned. Stained with Ab to determine mophology, phenotype present. Compare and contrast to other ICN supportive of functioanl data.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948, heart | UBERON:0000948, tissue | UBERON:0000479</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>morphology</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Sus scrofa domesticus|NCBITaxon:9825</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>RAGP Heart Immunocytochemistry Confocal</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>1</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:6e78a22b-0931-4bb5-8529-31e3111ab66a"&gt;Immunocytochemistry Pig Heart ICN&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 3; # of files: 11; bytes: 548767353</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/view/pig-heart-neuonal-and-fiber-immunocytochemistry-2n9gdh6</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>1</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value />
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>http://data.sparc.science/browse/#/datasets/25</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:6e78a22b-0931-4bb5-8529-31e3111ab66a"&gt;N:dataset:6e78a22b-0931-4bb5-8529-31e3111ab66a&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>released</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>3f586c0e-6112-5867-bdc8-42fb1b6ae38e</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Functional neuronal nodose recording from pig. Cardaic Fiels chemical and mechanical stimulation &lt;a class="external" target="_blank" href="http://data.sparc.science/browse/#/datasets/27"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Vaseghi, Marmar: https://orcid.org/0000-0002-9701-9706, Ardell, Jeffrey: https://orcid.org/0000-0001-9241-0864, Shivkumar , Kalyanam: https://orcid.org/0000-0002-4121-1766</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023848</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Recordings made form pig nodose ganglion with linaer bipolar electrodes. Cardiac stimulation of varoius filels via mechanical-touch- and chemical to determine sresponse type- uniploar or multimodal from neurons ressideing within nodose ganglion.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>electrophysiology</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value />
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>microarray, cardiac, NODOSE ganglion, pig</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:1e7738b9-e908-4293-83dc-ebe78f3b4158"&gt;Functional neuronal nodose recording from pig - Cardiac field chemical and mechanical stimulation&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 0; # of files: 8; bytes: 522757941</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/view/pig-nodose-ganglion-protocol-2ncgdaw</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value />
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>http://data.sparc.science/browse/#/datasets/27</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:1e7738b9-e908-4293-83dc-ebe78f3b4158"&gt;N:dataset:1e7738b9-e908-4293-83dc-ebe78f3b4158&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>released</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>b3f1ff8f-5d01-5b43-b1d1-7be216a04911</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Mapping of ICN Neurons in a 3D Reconstructed Rat Heart &lt;a class="external" target="_blank" href="http://data.sparc.science/browse/#/datasets/37"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Leung, Clara: https://orcid.org/0000-0003-4479-7608, Chen, Jin: https://orcid.org/0000-0003-3135-1885, Moss, Alison: https://orcid.org/0000-0002-7907-8796, Tappan, Susan: https://orcid.org/0000-0001-5120-3770, Heal, Maci: https://orcid.org/0000-0001-5097-1030, Huffman, Todd:, Farahani, Navid:, Eisenman, Leonard:, Cheng, Zixi: https://orcid.org/0000-0002-3722-6455, Schwaber, James: https://orcid.org/0000-0003-0598-7345, Vadigepalli, Rajanikanth: https://orcid.org/0000-0002-8405-1037</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023848</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>A normal male rat heart was fixed and whole-mount diffusion stained with Cresyl Echt Violet to visualize ICN neurons. The whole heart was sectioned and imaged with a Knife Edge Scanning Microscope (KESM) to produce an image stack. Cardiac anatomy was segmented and single neurons were mapped in the image stack with the Tissue Mapper software. The annotated heart anatomy and distribution of single neurons were then visualized in a 3D reconstructed model of the heart.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value />
+            </data>
+            <data>
+               <name>Modality</name>
+               <value />
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Rattus norvegicus|NCBITaxon:10116</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>Rodent Cardiac Anatomy, Knife Edge Scanning Microscopy, Rat Intrinsic cardiac neurons</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>1</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:f6dd731f-fa13-4dcd-af8f-00da5cc5855b"&gt;Mapping of ICN Neurons in a 3D Reconstructed Rat Heart&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 1; # of files: 6; bytes: 55707045849</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value />
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>11</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>batch</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>http://data.sparc.science/browse/#/datasets/37</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value>material anatomical entity|UBERON:0000465</value>
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:f6dd731f-fa13-4dcd-af8f-00da5cc5855b"&gt;N:dataset:f6dd731f-fa13-4dcd-af8f-00da5cc5855b&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>released</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>76deb7a1-72f2-54ba-9c63-547b1ebeea15</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Undiseased Human Cardiac Ventricular Cells &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:be0183e4-a912-465a-bd15-ff36973ee8b3"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Clancy, Colleen:, Yang, Pei-Chi:</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD026580</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>We have created a prototype Cardiac use-case package for modeling and simulation of autonomic effects on the cardiovascular system starting from the human ventricular model developed by O'Hara and Rudy group . The Cardiac use-case package consists of a single-cell model, 1D and 2D tissues models with documentation.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>electrophysiology, models</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value />
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>Computational models, Electrophysiology, Action potential, Isoproterenol, β-Adrenergic stimulation</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:be0183e4-a912-465a-bd15-ff36973ee8b3"&gt;Clancy_OT2OD026580_UndiseasedHumanCardiacVentricularCells_2019&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 7; # of files: 53; bytes: 13319399</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/view/undiseased-human-cardiac-ventricular-cells-xjwfkpe</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value>https://doi.org/10.1371/journal.pcbi.1002061</value>
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>2</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:be0183e4-a912-465a-bd15-ff36973ee8b3</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:be0183e4-a912-465a-bd15-ff36973ee8b3"&gt;N:dataset:be0183e4-a912-465a-bd15-ff36973ee8b3&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>f4d0cd5c-de37-5e6e-a93b-84caa8413206</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Functional neuronal nodose recording from pig. Cardaic Fiels chemical and mechanical stimulation &lt;a class="external" target="_blank" href="http://data.sparc.science/browse/#/datasets/26"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Vaseghi, Marmar: https://orcid.org/0000-0002-9701-9706, Ardell, Jeffrey: https://orcid.org/0000-0001-9241-0864, Shivkumar , Kalyanam: https://orcid.org/0000-0002-4121-1766</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023848</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Recordings made form pig nodose ganglion with linaer bipolar electrodes. Cardiac stimulation of varoius filels via mechanical-touch- and chemical to determine sresponse type- uniploar or multimodal from neurons ressideing within nodose ganglion.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>electrophysiology</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value />
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>microarray, cardiac, NODOSE ganglion, pig</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:860a8a4c-0cdd-4952-8a6a-09abdbf3a68a"&gt;Cardioneural Recordings&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 7; # of files: 17; bytes: 1634729486</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/view/pig-nodose-ganglion-protocol-2ncgdaw</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value />
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>http://data.sparc.science/browse/#/datasets/26</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:860a8a4c-0cdd-4952-8a6a-09abdbf3a68a"&gt;N:dataset:860a8a4c-0cdd-4952-8a6a-09abdbf3a68a&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>released</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>078e4603-066f-569f-a8cf-b295d46f5203</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Functional Recordings from Pig ICN. &lt;a class="external" target="_blank" href="http://data.sparc.science/browse/#/datasets/28"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Rajendran, Pradeep:, Ardell, Jeffrey, Laurance: https://orcid.org/0000-0001-9241-0864, Vaseghi, Marmar.: https://orcid.org/0000-0002-9701-9706</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023848</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Pig monitored for ICN recoding with cardiovascular output moitoring. Cervical vagi stimulation</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>electrophysiology</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value />
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>neuromodulation, Vagus, cardiac ICN, Pig</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:0d9454ca-43d9-4fdb-ac79-01c3574e8565"&gt;Functional Recordings from Pig ICN&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 1; # of files: 9; bytes: 1081921237</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/view/pig-icn-recording-2jugcnw</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value />
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>http://data.sparc.science/browse/#/datasets/28</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:0d9454ca-43d9-4fdb-ac79-01c3574e8565"&gt;N:dataset:0d9454ca-43d9-4fdb-ac79-01c3574e8565&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>released</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>4a68a766-603c-54a5-b861-8dedbb86d112</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Workflow Analytics &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:645267cb-0684-4317-b22f-dd431c6de323/overview"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Ardell, Jeffrey Laurance:, Ardell, Jeffrey Laurance:</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023848</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Methodology of neural recordings using array electrodes .Desription/How to anaylse for signal to noise, spike sorting and higher level analysis</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948, myocardium of atrium | UBERON:0002302</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>electrophysiology</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value />
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>ICN, Microelectrode Array, Cardiac Skellum, Neural, ECG</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:645267cb-0684-4317-b22f-dd431c6de323"&gt;Workflow analytics of cardioneuronal mapping&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 4; # of files: 22; bytes: 6878689</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/view/neural-recording-and-analysis-workflow-2i4gcgw</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>2</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value />
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:645267cb-0684-4317-b22f-dd431c6de323/overview</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:645267cb-0684-4317-b22f-dd431c6de323"&gt;N:dataset:645267cb-0684-4317-b22f-dd431c6de323&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>4c45e11f-0913-586d-8404-b27eaf87ebd3</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Effects of subcutaneous nerve stimulation on nerve sprouting &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:257a485a-89b3-4187-888a-9843b277e6cb"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Wan, Juyi:, Wong, Johnson: https://orcid.org/0000-0002-5838-8453, Chen Peng-Sheng: https://orcid.org/0000-0002-4150-5836</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>TR002208</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>The rationale of the study was to test the hypothesis that subcutaneous nerve stimulation (ScNS) can remodel the cardiac innervation. We have harvested the tissues, processed them routinely for paraffin embedding and immunohistochemical staining. We include images of growth associated protein 43 (GAP43), tyrosine hydroxylase (TH) staining for LA, RA, LV, RV. In total, 763 JPG images, 3.5 GB.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value />
+            </data>
+            <data>
+               <name>Modality</name>
+               <value />
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Canis familiaris|NCBITaxon:9615</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384, female|PATO:0000383</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>nerve sprouting, cardiac nerve sprouting, stellate ganglion</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>22</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:257a485a-89b3-4187-888a-9843b277e6cb"&gt;Effects of subcutaneous nerve stimulation on nerve sprouting&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 177; # of files: 767; bytes: 3759659319</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value />
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>88</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value>https://doi.org/10.1016/j.hrthm.2019.02.027</value>
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:257a485a-89b3-4187-888a-9843b277e6cb</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:257a485a-89b3-4187-888a-9843b277e6cb"&gt;N:dataset:257a485a-89b3-4187-888a-9843b277e6cb&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>b88b0177-ad7e-5066-ae50-063d7c8430ef</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Electrophysiology in dog after subcutaneous nerve stimulation &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:f4c832f3-3b35-4a2d-963e-6924af16cdf8"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Wan, Juyi:, Wong, Johnson: https://orcid.org/0000-0002-5838-8453, Chen Peng-Sheng: https://orcid.org/0000-0002-4150-5836</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>TR002208</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Electrical signals recorded by 3 pairs of bipolar electrodes under the skin in ambulatory dogs. The sampling rate was 1,000/s. These electrical signals were recorded to detect cardiac arrhythmia and the nerve activity under the skin. The data were analyzed with custom written software (Nerve_Act), which reads the data and apply filters to optimize the arrhythmia detection and nerve activity detection. In total 6658 files and 278.5 GB.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value />
+            </data>
+            <data>
+               <name>Modality</name>
+               <value />
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Canis familiaris|NCBITaxon:9615</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384, female|PATO:0000383</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>Electrical stimulation, cardiac arrhythmias, autonomic nervous system, neuromodulation, paroxysmal atrial tachycardia, sympathetic nerve activity</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>22</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:f4c832f3-3b35-4a2d-963e-6924af16cdf8"&gt;Electrophysiology in dog after subcutaneous nerve stimulation&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 417; # of files: 6661; bytes: 299009087696</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value />
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value>https://doi.org/10.1016/j.hrthm.2019.02.027</value>
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:f4c832f3-3b35-4a2d-963e-6924af16cdf8</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:f4c832f3-3b35-4a2d-963e-6924af16cdf8"&gt;N:dataset:f4c832f3-3b35-4a2d-963e-6924af16cdf8&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>5df16a89-1f88-50b0-bc12-f24a4fc3e791</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Molecular Phenotype Distribution of Single Rat ICN Neurons &lt;a class="external" target="_blank" href="http://data.sparc.science/browse/#/datasets/29"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value />
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023848</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value />
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>transcriptomics</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Rattus norvegicus|NCBITaxon:10116</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>female|PATO:0000383</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value />
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>1</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:0170271a-8fac-4769-a8f5-2b9520291d03"&gt;Molecular Phenotype Distribution of Single Rat ICN Neurons&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 247; # of files: 2125; bytes: 48503549134</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value />
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>159</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value />
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>http://data.sparc.science/browse/#/datasets/29</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value>material anatomical entity|UBERON:0000465</value>
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:0170271a-8fac-4769-a8f5-2b9520291d03"&gt;N:dataset:0170271a-8fac-4769-a8f5-2b9520291d03&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>released</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>1c697034-e06d-5ee4-b03c-f7870eafd2fe</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Chronic interfacing with the autonomic nervous system using carbon nanotube (CNT) yarn electrodes &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:d4ca262e-7893-4d72-9325-03dd08b053ce/overview"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>McCallum, Grant A: https://orcid.org/0000-0001-5009-914X, Sui, Xiaohong:, Qiu, Chen:, Marmerstein, Joseph:, Zheng, Yang:, Eggers, Thomas E.:, Hu, Chuangang:, Dai, Liming:, Durand, Dominique M:</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>U18EB021759</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>The ability to reliably and safely communicate chronically with small diameter (100–300 µm) autonomic nerves could have a significant impact in fundamental biomedical research and clinical applications. However, this ability has remained elusive with existing neural interface technologies. Here we show a new chronic nerve interface using highly flexible materials with axon-like dimensions. The interface was implemented with carbon nanotube (CNT) yarn electrodes to chronically record neural activity from  the glossopharyngeal nerve. The recorded neural signals maintain a high signal-to-noise ratio (&gt;10 dB) in chronic implant models. These results establish a novel, chronic platform neural interfacing technique with the autonomic nervous system and demonstrate the possibility of regulating internal organ function, leading to new bioelectronic therapies and patient health monitoring. Chronic neural recordings of glossopharyngeal nerve during hypoxia challenges in anesthetized rats.  Intan Technologies amplifiers and acquisition system was used and MATLAB was used for data processing.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948, connective tissue | UBERON:0002384, tube | UBERON:0000025, nerve | UBERON:0001021</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>electrophysiology</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Rattus norvegicus|NCBITaxon:10116</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>hypoxia, glossopharyngeal nerve, neural recordings, chronic</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>1</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:d4ca262e-7893-4d72-9325-03dd08b053ce"&gt;Chronic interfacing with the autonomic nervous system using carbon nanotube (CNT) yarn electrodes&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 14; # of files: 32; bytes: 5399649843</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/view/glossopharyngeal-nerve-chronic-recording-in-anesth-wssfeee</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value />
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value>https://doi.org/10.1038/s41598-017-10639-w</value>
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>9</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value>Drs. Steve Lewis and Y.H. Hsieh (CWRU)</value>
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:d4ca262e-7893-4d72-9325-03dd08b053ce/overview</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:d4ca262e-7893-4d72-9325-03dd08b053ce"&gt;N:dataset:d4ca262e-7893-4d72-9325-03dd08b053ce&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>876cbe5a-478d-5242-97bb-4b0d3c4ec2d0</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Cholera toxin B retrograde tracing from brown adipose tissue and forelimb to the stellate ganglion. &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:6ce2e98e-5217-4952-897d-017285d303b2"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Lee, Seoeun: https://orcid.org/0000-0002-9113-6637, Zeltser, Lori M.: https://orcid.org/0000-0002-4330-6240</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023853</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>For neuromodulation of stellate ganglion (SG) projections to brown adipose tissue (BAT) to have clinical applications in obesity and type 2 diabetes, it is essential that stimulation protocols avoid projections from the SG to the heart and upper extremities. We mapped the neuroanatomical organization of BAT-projecting SG neurons relative to forelimb-projecting SG neurons in mice. Data consist of 32 stacked images (LSM format) of SG from a Zeiss 710 confocal microscope. Average file size: 540 MB</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>cervicothoracic ganglion | UBERON:0002441, brown adipose tissue | UBERON:0001348, capillary | UBERON:0001982, suture | UBERON:4200215, fat pad | UBERON:0003916, suprageniculate nucleus of thalamus | UBERON:0003033, adipose tissue | UBERON:0001013</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>microscopy</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Mus musculus|NCBITaxon:10090</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384, female|PATO:0000383</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>retrograde trace, brown adipose tissue, forelimb, cholera toxin B, stellate ganglion</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>8</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:6ce2e98e-5217-4952-897d-017285d303b2"&gt;Cholera toxin B retrograde tracing from brown adipose tissue and forelimb to the stellate ganglion&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 10; # of files: 39; bytes: 24219865242</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://doi.org/10.17504/protocols.io.wjrfcm6</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>32</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>2</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:6ce2e98e-5217-4952-897d-017285d303b2</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value />
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:6ce2e98e-5217-4952-897d-017285d303b2"&gt;N:dataset:6ce2e98e-5217-4952-897d-017285d303b2&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>a066802a-8b45-5f45-971f-d2e6f3a123e2</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>CTb intraductal 1 week &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Li Rosemary: https://orcid.org/0000-0002-2605-634X, Jimenez-Gonzalez Maria: https://orcid.org/0000-0002-7678-9058, Stanley Sarah: https://orcid.org/0000-0002-0253-2663</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value />
+            </data>
+            <data>
+               <name>Description</name>
+               <value>The neuronal tracer Cholera Toxin Subunit Beta (CTb) conjugated with a fluorophore (AlexaFluor 488) is infused into the duct of the pancreas. 1 week later neuronal ganglia, including Nodoses, Coeliac and thoracic Dorsal Root Ganglia are harvested. Tissue clearing and staining for CTb is performed using Idisco protocol. Image acquisition is done utilizing a confocal microscope. Further, quantification of CTb positive neurons is assessed using IMARIS software.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>abdominal wall | UBERON:0003697, celiac ganglion | UBERON:0002262, abdominal cavity | UBERON:0003684, diaphragm | UBERON:0001103, tissue | UBERON:0000479, heart right ventricle | UBERON:0002080, dorsal root ganglion | UBERON:0000044, inferior vagus X ganglion | UBERON:0005363, blood | UBERON:0000178, suture | UBERON:4200215, liver | UBERON:0002107</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value />
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Mus musculus|NCBITaxon:10090</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>Idisco, Peripheral Neuronal Ganglia, Retrograde tracing, Innervation</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>12</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded"&gt;Stanley_OT20D024912_CTb Intraductal 1 week&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 6; # of files: 59; bytes: 1971876946</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/private/D327A68038D5B4ECB32964C22D904269,https://www.protocols.io/private/F14F67958B7654CED84A3BF8B40EAA4B</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>60</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value>adult organism|UBERON:0007023</value>
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded"&gt;N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>3d315d82-e4f5-598d-882a-5137186a3a3c</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>CTb intraductal 1 week &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Li Rosemary: https://orcid.org/0000-0002-2605-634X, Jimenez-Gonzalez Maria: https://orcid.org/0000-0002-7678-9058, Stanley Sarah: https://orcid.org/0000-0002-0253-2663</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value />
+            </data>
+            <data>
+               <name>Description</name>
+               <value>The neuronal tracer Cholera Toxin Subunit Beta (CTb) conjugated with a fluorophore (AlexaFluor 488) is infused into the duct of the pancreas. 1 week later neuronal ganglia, including Nodoses, Coeliac and thoracic Dorsal Root Ganglia are harvested. Tissue clearing and staining for CTb is performed using Idisco protocol. Image acquisition is done utilizing a confocal microscope. Further, quantification of CTb positive neurons is assessed using IMARIS software.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>abdominal wall | UBERON:0003697, celiac ganglion | UBERON:0002262, abdominal cavity | UBERON:0003684, diaphragm | UBERON:0001103, tissue | UBERON:0000479, heart right ventricle | UBERON:0002080, dorsal root ganglion | UBERON:0000044, inferior vagus X ganglion | UBERON:0005363, blood | UBERON:0000178, suture | UBERON:4200215, liver | UBERON:0002107</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value />
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>Idisco, Peripheral Neuronal Ganglia, Retrograde tracing, Innervation</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>12</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded"&gt;Stanley_OT20D024912_CTb Intraductal 1 week&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 6; # of files: 59; bytes: 1971876946</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/private/D327A68038D5B4ECB32964C22D904269,https://www.protocols.io/private/F14F67958B7654CED84A3BF8B40EAA4B</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>60</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value>adult organism|UBERON:0007023</value>
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded"&gt;N:dataset:8742cd78-1ad8-4c17-aa12-42c06e898ded&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>3d315d82-e4f5-598d-882a-5137186a3a3c</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>AAV Serotypes 6_8_9 Intrapancreatic 4 weeks &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Li Rosemary: https://orcid.org/0000-0002-2605-634X, Jimenez-Gonzalez Maria: https://orcid.org/0000-0002-7678-9058, Stanley Sarah: https://orcid.org/0000-0002-0253-2663</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value />
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Adeno-assocciated virus, expressing mCherry fluorophore under synapsin promoter (AAV-hSyn-mCherry) was injected in the parenchyma of the pancreas. Different serotypes (6, 8, 9) were tested. 4 weeks later, coeliacs were harvested. Tissue clearing and immunohystochemistry staining were applied to identify infected neurons. Confocal microscope were used for imaging adquisition. Analysis and quantification were performed with IMARIS software.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>diaphragm | UBERON:0001103, blood | UBERON:0000178, abdominal cavity | UBERON:0003684, dorsal root ganglion | UBERON:0000044, inferior vagus X ganglion | UBERON:0005363, liver | UBERON:0002107, abdominal wall | UBERON:0003697, suture | UBERON:4200215, tissue | UBERON:0000479, heart right ventricle | UBERON:0002080, celiac ganglion | UBERON:0002262</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value />
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Mus musculus|NCBITaxon:10090</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>Idisco, Peripheral Neuronal Ganglia, Retrograde tracing, Innervation</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>36</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e"&gt;Stanley_OT20D024912_AAV Serotypes 6_8_9 Intrapancreatic 4 weeks&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 6; # of files: 63; bytes: 3125819893</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/private/D327A68038D5B4ECB32964C22D904269,https://www.protocols.io/private/F14F67958B7654CED84A3BF8B40EAA4B</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>36</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value>adult organism|UBERON:0007023</value>
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e"&gt;N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>b3ad2f58-b0b3-5859-aa0d-368f2bdea758</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>AAV Serotypes 6_8_9 Intrapancreatic 4 weeks &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Li Rosemary: https://orcid.org/0000-0002-2605-634X, Jimenez-Gonzalez Maria: https://orcid.org/0000-0002-7678-9058, Stanley Sarah: https://orcid.org/0000-0002-0253-2663</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value />
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Adeno-assocciated virus, expressing mCherry fluorophore under synapsin promoter (AAV-hSyn-mCherry) was injected in the parenchyma of the pancreas. Different serotypes (6, 8, 9) were tested. 4 weeks later, coeliacs were harvested. Tissue clearing and immunohystochemistry staining were applied to identify infected neurons. Confocal microscope were used for imaging adquisition. Analysis and quantification were performed with IMARIS software.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>diaphragm | UBERON:0001103, blood | UBERON:0000178, abdominal cavity | UBERON:0003684, dorsal root ganglion | UBERON:0000044, inferior vagus X ganglion | UBERON:0005363, liver | UBERON:0002107, abdominal wall | UBERON:0003697, suture | UBERON:4200215, tissue | UBERON:0000479, heart right ventricle | UBERON:0002080, celiac ganglion | UBERON:0002262</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value />
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>Idisco, Peripheral Neuronal Ganglia, Retrograde tracing, Innervation</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>36</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e"&gt;Stanley_OT20D024912_AAV Serotypes 6_8_9 Intrapancreatic 4 weeks&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 6; # of files: 63; bytes: 3125819893</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/private/D327A68038D5B4ECB32964C22D904269,https://www.protocols.io/private/F14F67958B7654CED84A3BF8B40EAA4B</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>36</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value>adult organism|UBERON:0007023</value>
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e"&gt;N:dataset:fce3f57f-18ea-4453-887e-58a885e90e7e&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>b3ad2f58-b0b3-5859-aa0d-368f2bdea758</value>
+            </data>
+         </row>
+         <row>
+            <data>
+               <name>Dataset Title</name>
+               <value>AAVretro Serotype Intrapancreatic 4 weeks &lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:43da251b-59bd-43fa-8a8a-3a0276da968f"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Li Rosemary: https://orcid.org/0000-0002-2605-634X, Jimenez-Gonzalez Maria: https://orcid.org/0000-0002-7678-9058, Stanley Sarah: https://orcid.org/0000-0002-0253-2663</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value />
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Adeno-assocciated virus, expressing GFP fluorophore under synapsin promoter (AAVretro-hSyn-GFP) was injected in the parenchyma of the pancreas.. 4 weeks later, coeliac, nodose and dorsal root ganglias were harvested. Creyosection and immunofluorescence staining were applied to identify infected neurons. Confocal microscope were used for imaging adquisition. Analysis and quantification were performed with IMARIS software.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>diaphragm | UBERON:0001103, abdominal wall | UBERON:0003697, dorsal root ganglion | UBERON:0000044, tissue | UBERON:0000479, blood | UBERON:0000178, liver | UBERON:0002107, suture | UBERON:4200215, celiac ganglion | UBERON:0002262, inferior vagus X ganglion | UBERON:0005363, heart right ventricle | UBERON:0002080, abdominal cavity | UBERON:0003684</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value />
+            </data>
+            <data>
+               <name>Species</name>
+               <value />
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>Immunofluorescence, Peripheral Neuronal Ganglia, Retrograde tracing, Innervation</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>6</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:43da251b-59bd-43fa-8a8a-3a0276da968f"&gt;Stanley_OT20D024912_AAV Retro Intrapancreatic injection&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 8; # of files: 112; bytes: 1109844150</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/private/D327A68038D5B4ECB32964C22D904269,https://www.protocols.io/private/F14F67958B7654CED84A3BF8B40EAA4B</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>30</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>3</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Complete</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value />
+            </data>
+            <data>
+               <name>Links</name>
+               <value>https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:43da251b-59bd-43fa-8a8a-3a0276da968f</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value>adult organism|UBERON:0007023</value>
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:43da251b-59bd-43fa-8a8a-3a0276da968f"&gt;N:dataset:43da251b-59bd-43fa-8a8a-3a0276da968f&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>embargoed</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>4fd05746-33e4-5ca0-9de2-a5724c5b0b9f</value>
+            </data>
+         </row>
+      </results>
+   </result>
+</responseWrapper>
