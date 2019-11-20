@@ -43,3 +43,62 @@ This will be **positive** for consistency but the _negative_ is it will require 
 ### 2. Add additional results that are Map-Core specific
 The *negative* to this is that we will then have duplicates stored on scicrunch and we will need tools in place to process them (so that we don't display duplicates
 
+## mapcore.schema.json (proposed)
+```
+{
+  "type": "object",
+  "properties": {
+    "Dataset Title": { "type": "string", "required": true },
+    "Description": { "type": "string" },
+    "Example Image": { "type": "string" },
+    "Visualisation": {
+      "type": "object",
+      "properties": {
+        "available": { "type": "array", "required": true },
+        "species": { "type": "string" }, 
+        "organ": { "type": "string" }, 
+        "annotation": { "type": "string" }, 
+        "Scaffold": {
+          "type": "object", 
+          "required": false,
+          "properties": {
+            "uri": {
+              "type": "string", 
+              "required": true,
+              "pattern": "/(.*?)\\.(json)(?:$|\n)/g"
+            }
+          }
+          },
+          "DataViewer": {
+          "type": "object", 
+          "required": false,
+          "properties": {
+            "uri": {
+              "type": "string", 
+              "required": true,
+              "pattern": "/(.*?)\\.(json|csv)(?:$|\n)/g"
+          }
+          }
+          },
+          "Flatmap": {
+          "type": "object", 
+          "required": false,
+          "properties": {
+            "uri": {"type": "string"}
+          }
+          },
+          "Simulation": {
+          "type": "object", 
+          "required": false,
+          "properties": {
+            "uri": {
+              "type": "string", 
+              "required": true,
+              "pattern": "/https?:\/\/(www\\.)?osparc\\.io\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)/g"
+            }
+          }
+          }
+      }
+    }
+  }
+}
