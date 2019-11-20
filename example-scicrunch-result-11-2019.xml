@@ -1,0 +1,98 @@
+<row>
+            <data>
+               <name>Dataset Title</name>
+               <value>Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies &lt;a class="external" target="_blank" href="http://data.sparc.science/browse/#/datasets/32"&gt;Link&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Investigators</name>
+               <value>Rajendran, Pradeep Sundaram: https://orcid.org/0000-0001-9790-0408, Challis, Rosemary C:, Fowlkes, Charless C:, Hanna, Peter:, Tompkins, John D:, Jordan, Maria C:, Hiyari, Sarah:, Gabris-Weber, Beth A:, Greenbaum, Alon:, Chan, Ken Y:, Deverman, Benjamin E:, Munzberg, Heike:, Ardell, Jeffrey L:, Salama, Guy:, Gradinaru, Viviana:, Shivkumar, Kalyanam:</value>
+            </data>
+            <data>
+               <name>Award Number</name>
+               <value>OT2OD023848</value>
+            </data>
+            <data>
+               <name>Description</name>
+               <value>Heart rate is under the precise control of the autonomic nervous system. However, the wiring of peripheral neural circuits that regulate heart rate is poorly understood. Here, we developed a clearing-imaging-analysis pipeline to visualize innervation of intact hearts in 3D and employed a multi-technique approach to map parasympathetic and sympathetic neural circuits that control heart rate in mice. We anatomically and functionally identify cholinergic neurons and noradrenergic neurons in an intrinsic cardiac ganglion and the stellate ganglia, respectively, that project to the sinoatrial node. We also report that the heart rate response to optogenetic versus electrical stimulation of the vagus nerve displays different temporal characteristics and that vagal afferents enhance parasympathetic and reduce sympathetic tone to the heart via central mechanisms. Our findings provide new insights into neural regulation of heart rate, and our methodology to study cardiac circuits can be readily used to interrogate neural control of other visceral organs.</value>
+            </data>
+            <data>
+               <name>Anatomy</name>
+               <value>heart | UBERON:0000948, tissue | UBERON:0000479, heart | UBERON:0000948</value>
+            </data>
+            <data>
+               <name>Modality</name>
+               <value>electrophysiology</value>
+            </data>
+            <data>
+               <name>Species</name>
+               <value>Mus musculus|NCBITaxon:10090</value>
+            </data>
+            <data>
+               <name>Sex</name>
+               <value>male|PATO:0000384</value>
+            </data>
+            <data>
+               <name>Keywords</name>
+               <value>peripheral nervous system, cholinergic, noradrenergic, cardiac autonomic nervous system</value>
+            </data>
+            <data>
+               <name>Subject Count</name>
+               <value>1</value>
+            </data>
+            <data>
+               <name>Folder Name</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:9dd7a07b-2037-4ce7-829d-395cc4382518"&gt;Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Completeness Index</name>
+               <value># of directories: 5; # of files: 29; bytes: 7222501896</value>
+            </data>
+            <data>
+               <name>Protocols.io</name>
+               <value>https://www.protocols.io/private/39DCB5301BC684F70CD5B3859B1F6CED</value>
+            </data>
+            <data>
+               <name>Sample Count</name>
+               <value>4</value>
+            </data>
+            <data>
+               <name>Article DOI</name>
+               <value />
+            </data>
+            <data>
+               <name>Example Image</name>
+               <value />
+            </data>
+            <data>
+               <name>Contributor Count</name>
+               <value>16</value>
+            </data>
+            <data>
+               <name>Completeness</name>
+               <value>Batch</value>
+            </data>
+            <data>
+               <name>Acknowledgement</name>
+               <value>We thank the entire Shivkumar and Gradinaru group for discussions. This work was supported by a NIH Stimulating Peripheral Activity to Relieve Conditions (SPARC) awards (OT2OD023848 to K.S. and V.G.; OT2OD23864 to H.M.). The K.S. laboratory is also supported by a NIH National Heart, Lung, and Blood Institute (NHLBI) grant (R01HL084261) and a NIH SPARC award (U01EB025138-01 to K.S. and J.L.A.). The V.G. laboratory is also supported by a NIH Director's New Innovator Award (DP2NS087949), a NIH Presidential Early Career Award for Scientists and Engineers, a NIH National Institute on Aging grant (R01AG047664), a NIH BRAIN Initiative award (U01NS090577), the Defense Advanced Research Projects Agency (DARPA) Biological Technologies Office, the National Science Foundation NeuroNex Technology Hub (1707316), the Curci Foundation, the Beckman Institute, and the Rosen Bioengineering Center at Caltech. V.G. is a Heritage Principal Investigator supported by the Heritage Medical Research Institute. P.S.R. was supported by a NIH NHLBI F31 Predoctoral Fellowship (F31HL127974). R.C.C. was supported by an American Heart Association Postdoctoral Fellowship (17POST33410404). P.S.R. is a part of the UCLA-Caltech Medical Scientist Training Program. We thank Drs. Marmar Vaseghi (UCLA), Olujimi A. Ajijola (UCLA), and Ching Zhu (UCLA) for their comments.</value>
+            </data>
+            <data>
+               <name>Links</name>
+               <value>http://data.sparc.science/browse/#/datasets/32</value>
+            </data>
+            <data>
+               <name>Age Category</name>
+               <value>adult organism|UBERON:0007023</value>
+            </data>
+            <data>
+               <name>BlackfynnID</name>
+               <value>&lt;a class="external" target="_blank" href="https://app.blackfynn.io/N:organization:618e8dd9-f8d2-4dc4-9abb-c6aaab2e78a0/datasets/N:dataset:9dd7a07b-2037-4ce7-829d-395cc4382518"&gt;N:dataset:9dd7a07b-2037-4ce7-829d-395cc4382518&lt;/a&gt;</value>
+            </data>
+            <data>
+               <name>Dataset Status</name>
+               <value>released</value>
+            </data>
+            <data>
+               <name>v_uuid</name>
+               <value>f4f3aa88-bf57-5f90-9077-d40c192bb30a</value>
+            </data>
+         </row>
