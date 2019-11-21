@@ -57,7 +57,7 @@ The *negative* to this is that we will then have duplicates stored on scicrunch 
       "type": "object",
       "properties": {
         "available": { "type": "array", "required": true },
-        "Scaffold": {
+        "ScaffoldViewer": {
           "type": "object", 
           "required": false,
           "properties": {
@@ -109,9 +109,9 @@ The *negative* to this is that we will then have duplicates stored on scicrunch 
   "Description": "Mouse stellate ganglion neuronal cell shape data from...",
   # ... All Scicrunc properties here.
   "Visualisation": {  # (Additional property added by ABI)
-    "available": ["Scaffold", "DataViewer"],
-    "Scaffold": {
-      "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/stellate/stellate_metadata.json",
+    "available": ["ScaffoldViewer", "DataViewer"],
+    "ScaffoldViewer": {
+      "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/ScaffoldViewer/stellate/stellate_metadata.json",
     },
     "DataViewer": {
       "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/stellate/directory-meta.json",

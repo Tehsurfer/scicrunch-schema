@@ -10,7 +10,7 @@
       "type": "object",
       "properties": {
         "available": { "type": "array", "required": true },
-        "Scaffold": {
+        "ScaffoldViewer": {
           "type": "object", 
           "required": false,
           "properties": {

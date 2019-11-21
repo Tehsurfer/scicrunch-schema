@@ -6,8 +6,8 @@
   "Species": "Mus musculus|NCBITaxon:10090", 
   "Anatomy": ["heart | UBERON:0000948", "tissue | UBERON:0000479, heart", "UBERON:0000948"],
   "Visualisation": {
-    "available": ["Scaffold", "DataViewer"],
-    "Scaffold": {
+    "available": ["ScaffoldViewer", "DataViewer"],
+    "ScaffoldViewer": {
       "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/stellate/stellate_metadata.json",
     },
     "DataViewer": {
