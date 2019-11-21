@@ -4,7 +4,7 @@
   "Description": "Mouse stellate ganglion neuronal cell shape data from the Shivkumar/Tompkins group are displayed in a 3D stellate scaffold. 15 neurons, including their cell bodies, axons and dendrites, are displayed on five cross-sections of the stellate with the high resolution image displayed as a texture map. Electrophysiological data from these cells can be visualized by clicking on the cell. Note that the scaffold in this example is a geometrically simple shape designed to register the images in the appropriate anatomical location. The shape of the scaffold will be improved once more data are available to define the stellate boundaries.",
   "Example Image": "",
   "Species": "Mus musculus|NCBITaxon:10090", 
-  "Anatomy": ["heart | UBERON:0000948", "tissue | UBERON:0000479, heart" | UBERON:0000948]
+  "Anatomy": ["heart | UBERON:0000948", "tissue | UBERON:0000479, heart", "UBERON:0000948"],
   "Visualisation": {
     "available": ["Scaffold", "DataViewer"],
     "Scaffold": {

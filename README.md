@@ -51,13 +51,12 @@ The *negative* to this is that we will then have duplicates stored on scicrunch 
     "Dataset Title": { "type": "string", "required": true },
     "Description": { "type": "string" },
     "Example Image": { "type": "string" },
+    "Species": { "type": "string" }, 
+    "Anatomy": { "type": "array" }, 
     "Visualisation": {
       "type": "object",
       "properties": {
         "available": { "type": "array", "required": true },
-        "species": { "type": "string" }, 
-        "organ": { "type": "string" }, 
-        "annotation": { "type": "string" }, 
         "Scaffold": {
           "type": "object", 
           "required": false,
@@ -111,9 +110,6 @@ The *negative* to this is that we will then have duplicates stored on scicrunch 
   # ... All Scicrunc properties here.
   "Visualisation": {  # (Additional property added by ABI)
     "available": ["Scaffold", "DataViewer"],
-    "species": "Mouse",
-    "organ": "nerve",
-    "annotation": "UBERON: 0002440",
     "Scaffold": {
       "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/stellate/stellate_metadata.json",
     },
