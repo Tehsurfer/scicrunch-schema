@@ -5,13 +5,18 @@
   "Example Image": "",
   "Species": "Mus musculus|NCBITaxon:10090", 
   "Anatomy": ["heart | UBERON:0000948", "tissue | UBERON:0000479, heart", "UBERON:0000948"],
-  "Visualisation": {
-    "available": ["ScaffoldViewer", "DataViewer"],
-    "ScaffoldViewer": {
-      "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/stellate/stellate_metadata.json",
+  "Visualisation": [
+    {
+      "Type": "ScaffoldViewer",
+      "Title": "Stellate Ganglion",
+      "Description": "Mapped neuronal cells to a 3d scaffold of a mouse heart",
+      "URI": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/stellate/stellate_metadata.json",
     },
-    "DataViewer": {
+    {
+      "Type": "DataViewer",
+      "Title": "Stellate Ganglion",
+      "Description": "Mapped neuronal cells to a 3d scaffold of a mouse heart",
       "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/stellate/directory-meta.json",
     }
-  }
+  ]
 }

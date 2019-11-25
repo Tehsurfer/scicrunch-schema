@@ -7,49 +7,23 @@
     "Species": { "type": "string" }, 
     "Anatomy": { "type": "array" }, 
     "Visualisation": {
-      "type": "object",
-      "properties": {
-        "available": { "type": "array", "required": true },
-        "ScaffoldViewer": {
-          "type": "object", 
-          "required": false,
-          "properties": {
-            "uri": {
-              "type": "string", 
-              "required": true,
-              "pattern": "/(.*?)\\.(json)(?:$|\n)/g"
-            }
-          }
+      "type": "array",
+      "contatins": {
+        "type": "object",
+        "properties": {
+          "Type": {
+            "type": "string", 
+            "required": true,
+            "pattern": "/(DataViewer|ScaffoldViewer|Flatmap|Simulation)/g"
           },
-          "DataViewer": {
-          "type": "object", 
-          "required": false,
-          "properties": {
-            "uri": {
-              "type": "string", 
-              "required": true,
-              "pattern": "/(.*?)\\.(json|csv)(?:$|\n)/g"
+          "Title": {"type": "string"},
+          "Description": {"type": "string"},
+          "URI": {
+            "type": "string", 
+            "required": true,
+            "pattern": "/(.*?)\\.(json|csv)(?:$|\n)|(https?:\/\/(www\\.)?osparc\\.io\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*))"
           }
-          }
-          },
-          "Flatmap": {
-          "type": "object", 
-          "required": false,
-          "properties": {
-            "uri": {"type": "string"}
-          }
-          },
-          "Simulation": {
-          "type": "object", 
-          "required": false,
-          "properties": {
-            "uri": {
-              "type": "string", 
-              "required": true,
-              "pattern": "/https?:\/\/(www\\.)?osparc\\.io\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)/g"
-            }
-          }
-          }
+        }
       }
     }
   }

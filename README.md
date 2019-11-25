@@ -54,49 +54,23 @@ The *negative* to this is that we will then have duplicates stored on scicrunch 
     "Species": { "type": "string" }, 
     "Anatomy": { "type": "array" }, 
     "Visualisation": {
-      "type": "object",
-      "properties": {
-        "available": { "type": "array", "required": true },
-        "ScaffoldViewer": {
-          "type": "object", 
-          "required": false,
-          "properties": {
-            "uri": {
-              "type": "string", 
-              "required": true,
-              "pattern": "/(.*?)\\.(json)(?:$|\n)/g"
-            }
-          }
+      "type": "array",
+      "contatins": {
+        "type": "object",
+        "properties": {
+          "Type": {
+            "type": "string", 
+            "required": true,
+            "pattern": "/(DataViewer|ScaffoldViewer|Flatmap|Simulation)/g"
           },
-          "DataViewer": {
-          "type": "object", 
-          "required": false,
-          "properties": {
-            "uri": {
-              "type": "string", 
-              "required": true,
-              "pattern": "/(.*?)\\.(json|csv)(?:$|\n)/g"
+          "Title": {"type": "string"},
+          "Description": {"type": "string"},
+          "URI": {
+            "type": "string", 
+            "required": true,
+            "pattern": "/(.*?)\\.(json|csv)(?:$|\n)|(https?:\/\/(www\\.)?osparc\\.io\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*))"
           }
-          }
-          },
-          "Flatmap": {
-          "type": "object", 
-          "required": false,
-          "properties": {
-            "uri": {"type": "string"}
-          }
-          },
-          "Simulation": {
-          "type": "object", 
-          "required": false,
-          "properties": {
-            "uri": {
-              "type": "string", 
-              "required": true,
-              "pattern": "/https?:\/\/(www\\.)?osparc\\.io\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)/g"
-            }
-          }
-          }
+        }
       }
     }
   }
@@ -108,14 +82,19 @@ The *negative* to this is that we will then have duplicates stored on scicrunch 
   "Dataset Title": "Cell Body Segmentation and Electrophysiology Data: Stellate Ganglion",
   "Description": "Mouse stellate ganglion neuronal cell shape data from...",
   # ... All Scicrunc properties here.
-  "Visualisation": {  # (Additional property added by ABI)
-    "available": ["ScaffoldViewer", "DataViewer"],
-    "ScaffoldViewer": {
-      "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/ScaffoldViewer/stellate/stellate_metadata.json",
+  "Visualisation": [ # (Additional property added by ABI)
+    {
+      "Type": "ScaffoldViewer",
+      "Title": "Stellate Ganglion",
+      "Description": "Mapped neuronal cells to a 3d scaffold of a mouse heart",
+      "URI": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/stellate/stellate_metadata.json",
     },
-    "DataViewer": {
+    {
+      "Type": "DataViewer",
+      "Title": "Stellate Ganglion",
+      "Description": "Mapped neuronal cells to a 3d scaffold of a mouse heart",
       "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/stellate/directory-meta.json",
     }
-  }
+  ]
 }
 ```
