@@ -98,3 +98,10 @@ The *negative* to this is that we will then have duplicates stored on scicrunch 
   ]
 }
 ```
+
+## Current Scicrunch API endpoints used by ABI
+```python
+    url = 'https://scicrunch.org/api/1/dataservices/federation/data/{0}?{1}&{2}'.format(
+        data_set, query_string, 'key={}'.format(Config.KNOWLEDGEBASE_KEY, 'utf-8'))
+    return get_response_from_remote(url)
+```
